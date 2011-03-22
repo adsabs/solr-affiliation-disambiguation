@@ -491,6 +491,10 @@
     <!-- default values for query parameters -->
      <lst name="defaults">
        <str name="echoParams">explicit</str>
+       <str name="defType">dismax</str>
+       <str name="qf">zip_code^10 display_name alternate_name address country_code city^3 state</str>
+       <str name="debugQuery">true</str>
+       <str name="mm">2</str>
        <!--
        <int name="rows">10</int>
        <str name="fl">*</str>
