@@ -28,6 +28,9 @@ Television, Televisions, TV, TVs
 
 # Synonym mappings can be used for spelling correction too
 pixima => pixma
-
-
-FR => France
+Università => Univ
+Dipartimento => Dipt
+Laboratory => Lab
+Institute => Inst
+Institut => Inst
+Colorado => CO
