@@ -373,7 +373,20 @@
     <locale-encoding-mapping><locale>zh_TW</locale><encoding>Big5</encoding></locale-encoding-mapping>   
   </locale-encoding-mapping-list>
 
-  
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Solr authenticated application</web-resource-name>
+      <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>core1-role</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <login-config>
+    <auth-method>BASIC</auth-method>
+    <realm-name>Test Realm</realm-name>
+  </login-config> 
   
 </web-app>
 
