@@ -492,7 +492,7 @@
      <lst name="defaults">
        <str name="echoParams">all</str>
        <str name="defType">dismax</str>
-       <str name="qf">zip_code^1.6 display_name^1.2 alternate_name^1.2 address country_code city^1.4 state^1.2</str>
+       <str name="qf">id institution department address city state country zip_code country_code</str>
        <str name="debugQuery">true</str>
        <str name="mm">0</str>
        <!--
