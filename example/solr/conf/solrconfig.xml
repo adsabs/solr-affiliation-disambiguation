@@ -493,7 +493,7 @@
        <str name="echoParams">all</str>
        <str name="defType">dismax</str>
        <str name="qf">id institution department address city state country zip_code country_code</str>
-       <str name="debugQuery">true</str>
+       <str name="debugQuery">false</str>
        <str name="mm">0</str>
        <!--
        <int name="rows">10</int>

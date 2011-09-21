@@ -1,3 +1,4 @@
+*.old
 example/logs
 example/solr/data
 example/work
