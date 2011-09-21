@@ -449,13 +449,13 @@
 
    <field name="id" type="string" indexed="true" stored="true" required="true" /> 
    <field name="institution" type="text" indexed="true" stored="true" required="true" multiValued="true" /> 
-   <field name="department" type="text" indexed="true" stored="true" required="false" /> 
+   <field name="department" type="text" indexed="true" stored="true" required="false" multiValued="true"/> 
    <field name="address" type="text" indexed="true" stored="true" required="false" multiValued="true"/> 
    <field name="city" type="text" indexed="true" stored="true" required="false" multiValued="true"/> 
    <field name="state" type="state" indexed="true" stored="true" required="false" /> 
    <field name="country" type="text" indexed="true" stored="true" required="false" /> 
    <field name="zip_code" type="string" indexed="true" stored="true" required="false" multiValued="True" /> 
-   <field name="country_code" type="country" indexed="true" stored="true" required="false" /> 
+   <field name="country_code" type="country" indexed="true" stored="true" required="false" multiValued="True" />
  </fields>
 
  <!-- Field to use to determine and enforce document uniqueness. 
